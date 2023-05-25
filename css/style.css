@@ -1,0 +1,184 @@
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.resultado,
+.valor {
+    font-size: 130%;
+    text-align: center;
+}
+
+.bhaskara {
+    background-color: #CC3366;
+    color: #FFF;
+}
+
+.bhaskara div {
+    height: 150px;
+}
+
+#valora,
+#valorb,
+#valorc {
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background-color: #CC3366;
+    color: #FFF;
+}
+
+#valora::placeholder,
+#valorb::placeholder,
+#valorc::placeholder {
+    opacity: 1;
+    color: #FFF;
+}
+
+.bhaskara button {
+    font-weight: 600;
+    color: #FFF;
+    width: 50%;
+    height: 30%;
+}
+
+.bhaskara button:hover {
+    background-color: #FFF;
+    color: #CC3366;
+}
+
+.divisao {
+    background-color: #6699FF;
+    color: #FFF;
+}
+
+.divisao div {
+    height: 150px;
+}
+
+#numerador,
+#denominador {
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background-color: #6699FF;
+    color: #FFF;
+}
+
+#numerador::placeholder,
+#denominador::placeholder {
+    opacity: 1;
+    color: #FFF;
+}
+
+.divisao button {
+    font-weight: 600;
+    color: #FFF;
+    width: 50%;
+    height: 30%;
+}
+
+.divisao button:hover {
+    background-color: #FFF;
+    color: #6699FF;
+}
+
+.velocidade {
+    background-color: #669966;
+    color: #FFF;
+}
+
+.velocidade div {
+    height: 150px;
+}
+
+#kmporhora {
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background-color: #669966;
+    color: #FFF;
+}
+
+#kmporhora::placeholder {
+    opacity: 1;
+    color: #FFF;
+}
+
+.velocidade button {
+    font-weight: 600;
+    color: #FFF;
+    width: 50%;
+    height: 30%;
+}
+
+.velocidade button:hover {
+    background-color: #FFF;
+    color: #669966;
+}
+
+.temperatura {
+    background-color: #FF7F50;
+    color: #FFF;
+}
+
+.temperatura div {
+    height: 150px;
+}
+
+#celsius {
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background-color: #FF7F50;
+    color: #FFF;
+}
+
+#celsius::placeholder {
+    opacity: 1;
+    color: #FFF;
+}
+
+.temperatura button {
+    font-weight: 600;
+    color: #FFF;
+    width: 50%;
+    height: 30%;
+}
+
+.temperatura button:hover {
+    background-color: #FFF;
+    color: #FF7F50;
+}
+
+.moedas {
+    background-color: #4682B4;
+    color: #FFF;
+    margin-bottom: 50px;
+}
+
+.moedas div {
+    height: 150px;
+}
+
+#cotacao,
+#reais {
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background-color: #4682B4;
+    color: #FFF;
+}
+
+#cotacao::placeholder,
+#reais::placeholder {
+    opacity: 1;
+    color: #FFF;
+}
+
+.moedas button {
+    font-weight: 600;
+    color: #FFF;
+    width: 50%;
+    height: 30%;
+}
+
+.moedas button:hover {
+    background-color: #FFF;
+    color: #4682B4;
+}
