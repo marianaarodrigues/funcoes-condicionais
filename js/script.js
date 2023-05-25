@@ -11,7 +11,7 @@ function bhaskar() {
     else {
         let raiz1 = (parseFloat((-1 * b + Math.sqrt(delta)) / (2 * a))).toFixed(2)
         let raiz2 = (parseFloat((-1 * b - Math.sqrt(delta)) / (2 * a))).toFixed(2)
-        let resultado = raiz1 + ' e ' + raiz2
+        let resultado = 'Resultado: as raízes são ' + raiz1 + ' e ' + raiz2
         document.getElementById('bhask').innerHTML = resultado
     }
 }
@@ -25,21 +25,28 @@ function divis() {
     }
     else {
         let resdiv = (parseFloat(a / b)).toFixed(2)
-        document.getElementById('resdivisao').innerHTML = resdiv
+        result = 'Resultado: ' + resdiv
+        document.getElementById('resdivisao').innerHTML = result
     }
 }
 
 function msegundo() {
     let velkm = parseFloat(document.getElementById('kmporhora').value)
     let velm = (velkm / 3.6).toFixed(2)
-    resveloc = velm + ' (Não consegui entender qual a divisão entre variáveis)'
+
+    // Não consegui entender qual a divisão entre variáveis
+
+    resveloc = 'Resultado: ' + velm + ' m/s'
     document.getElementById('velmpors').innerHTML = resveloc
 }
 
 function celsfahr() {
     let celsius = parseFloat(document.getElementById('celsius').value)
     let fahrenheit = (1.8 * celsius + 32).toFixed(2)
-    restemp = fahrenheit + ' (Não consegui entender qual a divisão entre variáveis)'
+
+    // Não consegui entender qual a divisão entre variáveis
+
+    restemp = 'Resultado: ' + fahrenheit + '°F'
     document.getElementById('celsiusfahr').innerHTML = restemp
 }
 
@@ -52,6 +59,7 @@ function realemdolar() {
     }
     else {
         let dolar = (real / cotacao).toFixed(2)
-        document.getElementById('realdolar').innerHTML = dolar
+        resultadodiv = 'Resultado: R$ ' + dolar
+        document.getElementById('realdolar').innerHTML = resultadodiv
     }
 }
