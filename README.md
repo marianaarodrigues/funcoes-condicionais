@@ -1,2 +1,2 @@
 # funcoes-condicionais
- Funções JS com verificação condicional
+ Funções JS com verificação condicional.
